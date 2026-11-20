@@ -1,0 +1,66 @@
+[
+    {
+        "name": ".github",
+        "path": ".github",
+        "sha": "504bc5deb415d550c743a5c7f3ca08ef8013af72",
+        "size": 0,
+        "url": "https://api.github.com/repos/manish62377/open-source-app-directory/contents/.github?ref=main",
+        "html_url": "https://github.com/manish62377/open-source-app-directory/tree/main/.github",
+        "git_url": "https://api.github.com/repos/manish62377/open-source-app-directory/git/trees/504bc5deb415d550c743a5c7f3ca08ef8013af72",
+        "download_url": null,
+        "type": "dir",
+        "_links": {
+            "self": "https://api.github.com/repos/manish62377/open-source-app-directory/contents/.github?ref=main",
+            "git": "https://api.github.com/repos/manish62377/open-source-app-directory/git/trees/504bc5deb415d550c743a5c7f3ca08ef8013af72",
+            "html": "https://github.com/manish62377/open-source-app-directory/tree/main/.github"
+        }
+    },
+    {
+        "name": "LICENSE",
+        "path": "LICENSE",
+        "sha": "f91944ecbff7114e39e4f4ec3101a948dcba0d9b",
+        "size": 1068,
+        "url": "https://api.github.com/repos/manish62377/open-source-app-directory/contents/LICENSE?ref=main",
+        "html_url": "https://github.com/manish62377/open-source-app-directory/blob/main/LICENSE",
+        "git_url": "https://api.github.com/repos/manish62377/open-source-app-directory/git/blobs/f91944ecbff7114e39e4f4ec3101a948dcba0d9b",
+        "download_url": "https://raw.githubusercontent.com/manish62377/open-source-app-directory/main/LICENSE",
+        "type": "file",
+        "_links": {
+            "self": "https://api.github.com/repos/manish62377/open-source-app-directory/contents/LICENSE?ref=main",
+            "git": "https://api.github.com/repos/manish62377/open-source-app-directory/git/blobs/f91944ecbff7114e39e4f4ec3101a948dcba0d9b",
+            "html": "https://github.com/manish62377/open-source-app-directory/blob/main/LICENSE"
+        }
+    },
+    {
+        "name": "README.md",
+        "path": "README.md",
+        "sha": "e077a834f5cf7ab4726cb768faa9ab3206bd242f",
+        "size": 27,
+        "url": "https://api.github.com/repos/manish62377/open-source-app-directory/contents/README.md?ref=main",
+        "html_url": "https://github.com/manish62377/open-source-app-directory/blob/main/README.md",
+        "git_url": "https://api.github.com/repos/manish62377/open-source-app-directory/git/blobs/e077a834f5cf7ab4726cb768faa9ab3206bd242f",
+        "download_url": "https://raw.githubusercontent.com/manish62377/open-source-app-directory/main/README.md",
+        "type": "file",
+        "_links": {
+            "self": "https://api.github.com/repos/manish62377/open-source-app-directory/contents/README.md?ref=main",
+            "git": "https://api.github.com/repos/manish62377/open-source-app-directory/git/blobs/e077a834f5cf7ab4726cb768faa9ab3206bd242f",
+            "html": "https://github.com/manish62377/open-source-app-directory/blob/main/README.md"
+        }
+    },
+    {
+        "name": "script.py",
+        "path": "script.py",
+        "sha": "4ca76d7dfc3e5415003f26815d4558b77c582121",
+        "size": 1301,
+        "url": "https://api.github.com/repos/manish62377/open-source-app-directory/contents/script.py?ref=main",
+        "html_url": "https://github.com/manish62377/open-source-app-directory/blob/main/script.py",
+        "git_url": "https://api.github.com/repos/manish62377/open-source-app-directory/git/blobs/4ca76d7dfc3e5415003f26815d4558b77c582121",
+        "download_url": "https://raw.githubusercontent.com/manish62377/open-source-app-directory/main/script.py",
+        "type": "file",
+        "_links": {
+            "self": "https://api.github.com/repos/manish62377/open-source-app-directory/contents/script.py?ref=main",
+            "git": "https://api.github.com/repos/manish62377/open-source-app-directory/git/blobs/4ca76d7dfc3e5415003f26815d4558b77c582121",
+            "html": "https://github.com/manish62377/open-source-app-directory/blob/main/script.py"
+        }
+    }
+]

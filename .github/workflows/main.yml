@@ -1,0 +1,36 @@
+name: Fetch GitHub Data
+
+on:
+  workflow_dispatch: # इससे आप जब चाहें खुद बटन दबाकर स्क्रिप्ट चला सकेंगे
+  schedule:
+    - cron: '0 0 * * *' # यह स्क्रिप्ट को रोज़ रात को अपने आप भी चलाएगा
+
+permissions:
+  contents: write # यह आउटपुट फाइल (data.json) को रिपॉजिटरी में सेव करने की अनुमति देता है
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+    steps:
+      - name: रिपॉजिटरी कोड चेकआउट करें
+        uses: actions/checkout@v4
+
+      - name: Python सेटअप करें
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: ज़रूरी लाइब्रेरी इंस्टॉल करें
+        run: pip install requests
+
+      - name: Python स्क्रिप्ट चलाएँ
+        env:
+          API_TOKEN: ${{ secrets.API_TOKEN }}
+        run: python script.py
+
+      - name: नए डेटा को रिपॉजिटरी में सेव करें
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add data.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update fetched data" && git push)
